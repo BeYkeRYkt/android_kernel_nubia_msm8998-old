@@ -1030,7 +1030,6 @@ enum {
 #define TADC_EN_CTL					0x3646
 #define TADC_EN_CTL_CFG_BIT			BIT(7)
 #endif
-
 #define TM_IO_DTEST4_SEL			(MISC_BASE + 0xE9)
 
 /* CHGR FREQ Peripheral registers */
