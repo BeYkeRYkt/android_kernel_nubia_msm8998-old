@@ -351,6 +351,7 @@ struct smb_charger {
 	int			fake_input_current_limited;
 	bool			pr_swap_in_progress;
 	int			typec_mode;
+	u32			jeita_status;
 
 	/* workaround flag */
 	u32			wa_flags;
